@@ -5,7 +5,7 @@ OS_VERSION=$(lsb_release -ds)
 
 # Daftar versi Debian dan Ubuntu yang didukung
 supported_versions=("Debian GNU/Linux 10 (buster)" "Debian GNU/Linux 11 (bullseye)" "Debian GNU/Linux 12 (bookworm)"
-                    "Ubuntu 18.04 LTS" "Ubuntu 20.04 LTS" "Ubuntu 22.04 LTS" "Ubuntu 24.04 LTS")
+                    "Ubuntu 18.04 LTS" "Ubuntu 20.04.6 LTS" "Ubuntu 22.04 LTS" "Ubuntu 24.04 LTS")
 
 # Periksa apakah versi OS didukung
 if [[ ! " ${supported_versions[@]} " =~ " ${OS_VERSION} " ]]; then
